@@ -1,4 +1,4 @@
 class TermSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :word, :definition
+  attributes :word, :definition, :category, :pronunciation
 end
